@@ -1,0 +1,9 @@
+/* Ilustração do projeto ELEGÂNCIA NAILS. */
+.nails-visual{background:#f6c9d6}
+.nails-visual .visual-label,.nails-visual .visual-caption{color:#5a1a33}
+.nails{display:flex;align-items:flex-end;gap:10px}
+.nails i{display:block;width:34px;height:70px;border-radius:17px 17px 8px 8px;background:#d94f7a}
+.nails i:nth-child(2){height:88px;background:#fff4f7}
+.nails i:nth-child(3){height:96px;background:#8b2a52}
+.nails i:nth-child(4){height:84px;background:#fff4f7}
+.nails i:nth-child(5){height:62px}

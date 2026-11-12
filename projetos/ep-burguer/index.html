@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EP BURGUER - Sempre a melhor opção!</title>
+    <meta name="description"
+        content="Hamburgueria EP Burguer - Mais que hambúrgueres, uma explosão de sabor! Cardápio com X-Bacon, X-EP Burguer, fritas, açaí e milkshakes.">
+    <link rel="stylesheet" href="assert/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-p1BbO6/fHb8xk+XlRf2ozYh7IwPTvcm6G8YXK7T9ZB5u5tW+PjVhGbROJ6l0y6aUf5G9/GKycR6XnnU7/wfW1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <!-- Header -->
+    <header class="site-header" role="banner">
+        <nav class="navbar" aria-label="Navegação principal">
+            <a href="#" class="brand">
+                <img src="assert/imgs/logo.jpg" alt="EP Burguer" class="brand-logo">
+                <h1 class="brand-name">EP <span>BURGUER</span></h1>
+            </a>
+
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu" role="menubar">
+                <li role="none"><a href="#cardapio" class="nav-link" role="menuitem">Cardápio</a></li>
+                <li role="none"><a href="#contato" class="nav-link" role="menuitem">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content" tabindex="-1">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 id="hero-title" class="hero-title">Sempre a melhor <span>opção!</span></h1>
+                    <p class="hero-description">Mais que hambúrgueres, uma explosão de sabor que vai fazer você voltar
+                        sempre</p>
+                    <a href="#cardapio" class="btn">Ver Cardápio</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assert/imgs/donos-da-epBurguer.jpg" alt="Hambúrguer EP Burguer">
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu-section" id="cardapio" aria-labelledby="menu-title">
+            <h2 id="menu-title" class="section-title">Cardápio</h2>
+
+            <!-- Hamburguers -->
+            <section aria-labelledby="hamburguers-title">
+                <h3 id="hamburguers-title" class="category-title">HAMBURGUER</h3>
+                <div class="products-grid">
+                    <!-- Hambúrguer Simples -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">Hambúrguer</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Pão, carne, queijo, alface, tomate, cebola na chapa e
+                                    maionese caseira.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Industrial:</span>
+                                        <span class="price-value">R$ 6,00</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Artesanal:</span>
+                                        <span class="price-value">R$ 8,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/hamburguer-simples.jpg" alt="Hambúrguer Simples"
+                                class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20Hamburguer"
+                                class="btn-order">Pedir Hamburguer Industrial</a>
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20Hamburguer"
+                                class="btn-order btn-secondary">Pedir Hamburguer Artesanal</a>
+                        </footer>
+                    </article>
+
+                    <!-- X-Burguer -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">X-Burguer</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Pão, carne, queijo, presunto, alface, tomate, cebola na
+                                    chapa e maionese caseira.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Industrial:</span>
+                                        <span class="price-value">R$ 8,00</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Artesanal:</span>
+                                        <span class="price-value">R$ 10,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/x-burguer.jpg" alt="X-Burguer" class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20X-Burguer"
+                                class="btn-order">Pedir X-Burgue Industrial</a>
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20X-Burguer"
+                                class="btn-order btn-secondary">Pedir X-Burguer Artesanal</a>
+                        </footer>
+                    </article>
+
+                    <!-- Egg-Burguer -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">Egg-Burguer</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Pão, carne, presunto, ovo, alface, tomate, cebola na
+                                    chapa e maionese caseira</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Industrial:</span>
+                                        <span class="price-value">R$ 11,00</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Artesanal:</span>
+                                        <span class="price-value">R$ 13,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/egg-burguer.jpg" alt="Hambúrguer Simples" class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20Hamburguer"
+                                class="btn-order">Pedir Egg-Burguer Industrial</a>
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20Hamburguer"
+                                class="btn-order btn-secondary">Pedir Egg-Burguer Artesanal</a>
+                        </footer>
+                    </article>
+
+                    <!-- X-Bacon -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">X-Bacon</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Pão, carne, bacon, queijo, presunto, alface, tomate,
+                                    cebola na chapa e maionese caseira.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Industrial:</span>
+                                        <span class="price-value">R$ 12,00</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Artesanal:</span>
+                                        <span class="price-value">R$ 14,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/x-bacon.jpg" alt="X-Bacon" class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20X-Bacon%20com%20Carne%20Industrial"
+                                class="btn-order">Pedir X-Bacon Industrial</a>
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20X-Bacon%20com%20Carne%20Artesanal"
+                                class="btn-order btn-secondary">Pedir X-Bacon Artesanal</a>
+                        </footer>
+                    </article>
+
+                    <!-- X-Calabresa -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">X-Calabresa</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Pão, carne, calabresa, queijo, presunto, alface, tomate,
+                                    cebola na chapa e maionese caseira.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Industrial:</span>
+                                        <span class="price-value">R$ 13,00</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Artesanal:</span>
+                                        <span class="price-value">R$ 15,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/x-calabresa.jpg" alt="x-calabresa" class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20X-Bacon%20com%20Carne%20Industrial"
+                                class="btn-order">Pedir X-Calabresa Industrial</a>
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20X-Bacon%20com%20Carne%20Artesanal"
+                                class="btn-order btn-secondary">Pedir X-Calabresa artesanal</a>
+                        </footer>
+                    </article>
+
+                    <!-- X-EP Burguer -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">X-EP Burguer</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Pão, duas carnes, queijo, presunto, ovo, salsicha,
+                                    calabresa, bacon, alface, tomate, cebola na chapa e maionese caseira.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Industrial:</span>
+                                        <span class="price-value">R$ 18,00</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span class="price-type">Carne Artesanal:</span>
+                                        <span class="price-value">R$ 22,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/x-ep-burguer.jpg" alt="X-EP Burguer" class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20X-EP%20Burguer"
+                                class="btn-order">Pedir X-EP Burguer Industrial</a>
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20X-EP%20Burguer"
+                                class="btn-order btn-secondary">Pedir X-EP Burguer Artesanal</a>
+                        </footer>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Frituras -->
+            <section aria-labelledby="frituras-title">
+                <h3 id="frituras-title" class="category-title">FRITURAS</h3>
+                <div class="products-grid">
+                    <!-- Batata Frita -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">Batata Frita</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Porção de batatas fritas crocantes, servidas com ketchup
+                                    e maionese caseira.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">Porção:</span>
+                                        <span class="price-value">R$ 10,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/batata-frita.jpg" alt="Batata Frita" class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20de%20Batata%20Frita"
+                                class="btn-order">Pedir Batata Frita</a>
+
+                        </footer>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Sobremesas -->
+            <section aria-labelledby="sobremesas-title">
+                <h3 id="sobremesas-title" class="category-title">SOBREMESAS</h3>
+                <div class="products-grid">
+                    <!-- Açaí Simples -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">Açaí Simples</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Direito a 4 acompanhamentos e a fruta é banana.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">Tamanho:</span>
+                                        <span class="price-value">R$ 7,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/acai-de-7reais.jpg" alt="Açaí Simples" class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20de%20A%C3%A7ai%20Simples"
+                                class="btn-order">Pedir Açaí Simples</a>
+                        </footer>
+                    </article>
+
+                    <!-- Açaí Grande -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">Açaí Grande</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Todos os acompanhamentos e 3 opções de frutas.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">Tamanho:</span>
+                                        <span class="price-value">R$ 10,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/acai-de-10reais.jpg" alt="Açaí Grande" class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20de%20A%C3%A7ai%20Grande"
+                                class="btn-order">Pedir Açaí Grande</a>
+                        </footer>
+                    </article>
+
+                    <!-- Milkshake de Morango -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">Milkshake de Morango</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Delicioso milkshake cremoso de morango.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">300 ML:</span>
+                                        <span class="price-value">R$ 10,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/milk-shake-morango.jpg" alt="Milkshake de Morango"
+                                class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20Milkshake%20de%20Morango"
+                                class="btn-order">Pedir Milkshake</a>
+                        </footer>
+                    </article>
+
+                    <!-- Milkshake de chocolate -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">Milkshake de Chocolate</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Delicioso milkshake cremoso de Chocolate.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">300 ML:</span>
+                                        <span class="price-value">R$ 10,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/milk-shake-chocolate.jpg" alt="Milkshake de chocolate"
+                                class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20Milkshake%20de%20Chocolate"
+                                class="btn-order">Pedir Milkshake</a>
+                        </footer>
+                    </article>
+
+                    <!-- Milkshake de Menta -->
+                    <article class="product-card">
+                        <header class="product-header">
+                            <h4 class="product-title">Milkshake de Menta</h4>
+                        </header>
+                        <div class="product-body">
+                            <div class="product-info">
+                                <p class="product-description">Delicioso milkshake cremoso de Menta.</p>
+                                <div class="product-prices">
+                                    <div class="price-item">
+                                        <span class="price-type">300 ML:</span>
+                                        <span class="price-value">R$ 10,00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assert/imgs/milk-shake-menta.jpg" alt="Milkshake de Menta" class="product-image">
+                        </div>
+                        <div class="divider" role="separator"></div>
+                        <footer class="product-actions">
+                            <a href="https://wa.me/5581985036230?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20do%20Milkshake%20de%20Menta"
+                                class="btn-order">Pedir Milkshake</a>
+                        </footer>
+                    </article>
+                </div>
+            </section>
+
+
+        </section>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5581985036230?text=Olá, gostaria de fazer um pedido!" class="whatsapp-float" target="_blank"
+        aria-label="Fazer pedido pelo WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"><img src="assert/imgs/logo-whatsapp.png" width="60px" alt=""></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="site-footer" id="contato">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>📍 Entregamos em ate 3Km</p>
+                <p>📞 WhatsApp: (81) 98503-6230</p>
+                <p>© 2025 EP BURGUER</p>
+            </div>
+            <p class="developer">Desenvolvido e mantido por Mickeas Willams | Soluções em Tecnologia</p>
+        </div>
+    </footer>
+
+    <script src="assert/script/script.js"></script>
+</body>
+
+</html>

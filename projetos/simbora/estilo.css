@@ -1,0 +1,6 @@
+/* Ilustração do projeto SIMBORA. */
+.simbora-visual{background:#073c38;color:#d6edac}
+.visual-shapes{display:flex;align-items:center;gap:10px}
+.visual-shapes i{display:block;width:76px;height:76px;border-radius:50%;background:#d7eea9}
+.visual-shapes i:nth-child(2){width:110px;height:110px;background:#f77b48}
+.visual-shapes i:nth-child(3){background:#f3d64e}

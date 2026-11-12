@@ -1,0 +1,8 @@
+/* Ilustração do projeto EP BURGUER. */
+.burger-visual{background:#f77b48}
+.burger-visual .visual-label,.burger-visual .visual-caption{color:#4a1d0a}
+.burger{display:flex;flex-direction:column;align-items:center;gap:5px}
+.burger i{display:block;width:130px;height:20px;border-radius:6px 6px 40px 40px;background:#f3d64e}
+.burger i:nth-child(1){height:40px;border-radius:70px 70px 8px 8px}
+.burger i:nth-child(2){width:142px;height:18px;border-radius:6px;background:#5a2a14}
+.burger i:nth-child(3){width:136px;height:12px;border-radius:6px;background:#8eae45}
